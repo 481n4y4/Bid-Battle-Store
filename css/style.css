@@ -173,10 +173,12 @@ body {
   line-height: 1;
   padding-left: 2rem;
   color: var(--background);
+  text-align: center;
 }
 
 /* Product */
 .product,
+.Contact,
 .Contact {
   padding: 3rem 7% 1.4rem;
 }
@@ -223,9 +225,23 @@ body {
   font-size: 1.3rem;
 }
 
+.product .row .product-card .product-card-price {
+  text-align: center;
+}
+
 .product .row .product-card a {
   font-size: 1.5rem;
   color: yellow;
+}
+
+/* Contact Section */
+.Contact .Contact-card {
+  max-width: 80rem;
+}
+
+.Contact .Contact-card p {
+  color: #fff;
+  font-size: 1.3rem;
 }
 
 /* Footer */
