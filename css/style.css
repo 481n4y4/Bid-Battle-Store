@@ -206,6 +206,7 @@ body {
 .product .Cara {
   background-color: #800002;
   border-radius: 2rem;
+  padding: 2rem;
 }
 
 .product .row {
@@ -218,11 +219,14 @@ body {
 .product .row .product-card {
   text-align: center;
   padding: 2rem;
+  background-color: darkblue;
+  border-radius: 3rem;
+  margin: 1rem;
 }
 
 .product .row .product-card img {
   border-radius: 25%;
-  width: 100%;
+  width: 85%;
 }
 
 .product .row .product-card .product-card-title {
