@@ -151,7 +151,7 @@ body {
 
 .About .row .About-img img {
   width: 75%;
-  border-radius: 25%;
+  border-radius: 50%;
 }
 
 .About .row .content {
@@ -219,7 +219,7 @@ body {
 .product .row .product-card {
   text-align: center;
   padding: 2rem;
-  background-color: darkblue;
+  background-color: #222;
   border-radius: 3rem;
   margin: 1rem;
 }
@@ -245,13 +245,21 @@ body {
 }
 
 /* Contact Section */
-.Contact .Contact-card {
-  max-width: 80rem;
+.Contact h3 {
+  color: var(--background);
+  font-size: 1.7rem;
+  text-align: center;
 }
 
-.Contact .Contact-card p {
-  color: #fff;
+.Contact p {
+  color: var(--background);
   font-size: 1.3rem;
+}
+
+.Contact .row {
+  margin-top: 1.5rem;
+  background-color: #222;
+  padding: 1.5rem 2rem;
 }
 
 /* Footer */
