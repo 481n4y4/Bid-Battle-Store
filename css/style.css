@@ -200,6 +200,12 @@ body {
   max-width: 80rem;
   margin: auto;
   text-align: left;
+  padding-bottom: 1.5rem;
+}
+
+.product .Cara {
+  background-color: #800002;
+  border-radius: 2rem;
 }
 
 .product .row {
@@ -211,12 +217,12 @@ body {
 
 .product .row .product-card {
   text-align: center;
-  padding-bottom: 4rem;
+  padding: 2rem;
 }
 
 .product .row .product-card img {
   border-radius: 25%;
-  width: 35%;
+  width: 100%;
 }
 
 .product .row .product-card .product-card-title {
