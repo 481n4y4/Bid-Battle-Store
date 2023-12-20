@@ -262,6 +262,27 @@ body {
   padding: 1.5rem 2rem;
 }
 
+/* Sosmed Section */
+.Contact .Sosmed {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.Contact .Sosmed .Sosmed-card {
+  text-align: center;
+  padding: 1rem 4rem;
+}
+
+.Contact .Sosmed .Sosmed-card .Sosmed-card-title {
+  margin-top: 1.5rem;
+}
+
+.Contact .Sosmed a {
+  color: lightblue;
+}
+
 /* Footer */
 .footer {
   background-color: var(--primary);
